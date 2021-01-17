@@ -1,0 +1,39 @@
+body {
+			margin: 0px;
+			overflow: hidden;
+		}
+
+		.line-path {
+			fill: none;
+			stroke-width: 5;
+			stroke-linejoin: round;
+			stroke-linecap: round;
+			mix-blend-mode: multiply;
+		}
+
+		text {
+			font-size: 1.5rem;
+			font-family: sans-serif;
+		}
+
+		.title {
+			font-size: 3em;
+		}
+
+		.tick text {
+			font-size: 1.1rem;
+			fill: #635f5d;
+		}
+
+		.tick line {
+			stroke: #c0c0bb;
+		}
+
+		.text-label {
+			font-size: 2.5rem;
+		}
+
+		.selected-year-line {
+			stroke: black;
+			stroke-width: 5;
+		}
